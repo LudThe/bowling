@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="bowling.Models.BowlingGame">
+    <Position X="7.5" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAABAAGAAAAAAAAAAAAI=</HashCode>
+      <FileName>Models\BowlingGame.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CurrentMember" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="bowling.Models.RegularMember" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="4.75" Width="2" />
+    <AssociationLine Name="MemberType" Type="bowling.Models.MemberType">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.433" Y="0.175" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAgAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\RegularMember.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MemberType" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="bowling.Models.VIPMember" BaseTypeListCollapsed="true">
+    <Position X="5" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\VIPMember.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MemberType" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="bowling.Repo.FileHandler">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAACAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Repo\Filehandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bowling.Factories.MemberFactory">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\MemberFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="bowling.Interfaces.IMember">
+    <Position X="3.5" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IMember.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MemberType" />
+    </ShowAsAssociation>
+  </Interface>
+  <Enum Name="bowling.Models.MemberType" Collapsed="true">
+    <Position X="1" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Models\MemberType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
